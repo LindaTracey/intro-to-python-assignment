@@ -1,17 +1,25 @@
-🧠 Description:
-This Python script demonstrates key list operations as part of the PLP Academy Week 2 assignment on built-in data structures. It shows how to create, modify, and analyze a list using methods like append, insert, extend, pop, sort, and index.
+# Create an empty list
+my_list = []
 
-✅ Features:
-Creates an empty list
+# Append elements
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
 
-Appends multiple values
+# Insert 15 at the second position (index 1)
+my_list.insert(1, 15)
 
-Inserts a value at a specific index
+# Extend the list with [50, 60, 70]
+my_list.extend([50, 60, 70])
 
-Extends the list with another list
+# Remove the last element
+my_list.pop()
 
-Removes the last item
+# Sort the list in ascending order
+my_list.sort()
 
-Sorts the list in ascending order
+# Find and print the index of the value 30
+index_30 = my_list.index(30)
+print("Index of 30:", index_30)
 
-Finds and prints the index of a specific value
